@@ -3,9 +3,7 @@ Onboarding
 =========
 A beautiful way to introduce users to you app
 
-<p align="center">
-<img src="/graphics/example.gif" />
-</p>
+![Demo](graphics/example.gif)
 
 Using a regualar `ViewPager` with a custom transformer with callbacks we can achieve this effect
 
