@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/button_green_text_disabled" android:state_enabled="false"/>
+    <item android:color="@color/button_green_text" android:state_window_focused="false"/>
+    <item android:color="@color/button_green_text_pressed" android:state_pressed="true"/>
+    <item android:color="@color/button_green_text" android:state_selected="true"/>
+    <item android:color="@color/button_green_text" android:state_activated="true"/>
+    <item android:color="@color/button_green_text"/>
+    <!-- not selected -->
+</selector>

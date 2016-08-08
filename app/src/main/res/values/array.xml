@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="images_1">
+        <item>@drawable/img_tutorial_3_11</item>
+        <item>@drawable/img_tutorial_3_13</item>
+        <item>@drawable/img_tutorial_3_1</item>
+        <item>@drawable/img_tutorial_3_2</item>
+        <item>@drawable/img_tutorial_3_3</item>
+        <item>@drawable/img_tutorial_3_12</item>
+        <item>@drawable/img_tutorial_3_13</item>
+    </array>
+    <array name="images_2">
+        <item>@drawable/img_tutorial_3_2</item>
+        <item>@drawable/img_tutorial_3_11</item>
+        <item>@drawable/img_tutorial_3_4</item>
+        <item>@drawable/img_shared</item>
+        <item>@drawable/img_tutorial_3_5</item>
+        <item>@drawable/img_tutorial_3_9</item>
+        <item>@drawable/img_tutorial_3_2</item>
+    </array>
+    <array name="images_3">
+        <item>@drawable/img_tutorial_3_12</item>
+        <item>@drawable/img_tutorial_3_1</item>
+        <item>@drawable/img_tutorial_3_12</item>
+        <item>@drawable/img_tutorial_3_6</item>
+        <item>@drawable/img_tutorial_3_7</item>
+        <item>@drawable/img_tutorial_3_8</item>
+        <item>@drawable/img_tutorial_3_1</item>
+    </array>
+    <array name="images_4">
+        <item>@drawable/img_tutorial_3_6</item>
+        <item>@drawable/img_tutorial_3_1</item>
+        <item>@drawable/img_tutorial_3_9</item>
+        <item>@drawable/img_tutorial_3_10</item>
+        <item>@drawable/img_tutorial_3_11</item>
+        <item>@drawable/img_tutorial_3_2</item>
+        <item>@drawable/img_tutorial_3_1</item>
+        <item>@drawable/img_tutorial_3_3</item>
+    </array>
+    <array name="images_5">
+        <item>@drawable/img_tutorial_3_1</item>
+        <item>@drawable/img_tutorial_3_2</item>
+        <item>@drawable/img_tutorial_3_12</item>
+        <item>@drawable/img_tutorial_3_13</item>
+        <item>@drawable/img_tutorial_3_14</item>
+        <item>@drawable/img_tutorial_3_1</item>
+        <item>@drawable/img_tutorial_3_12</item>
+        <item>@drawable/img_tutorial_3_6</item>
+    </array>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey_light_tertiary"> <!-- todo theme -->
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/tutorial_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="124dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white_alpha100"
+            android:elevation="8dp">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/text_pager"
+                android:layout_width="match_parent"
+                android:layout_height="84dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="16dp"
+                android:overScrollMode="never" />
+
+            <com.viewpagerindicator.CirclePageIndicator
+                android:id="@+id/indicator"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="16dp"
+                android:padding="10dip"
+                app:fillColor="@color/primary_color"
+                app:pageColor="@color/grey_light_primary"
+                app:radius="6dip"
+                app:strokeWidth="0dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/touch_interceptor_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="9dp"> <!-- elevation -->
+
+            <Button
+                android:id="@+id/start"
+                style="@style/AppButtonGreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="16dp"
+                android:minHeight="0dp"
+                android:minWidth="168dp"
+                android:paddingBottom="8dp"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                android:paddingTop="8dp"
+                android:text="@string/tutorial_btn_start"
+                android:textSize="16sp"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </RelativeLayout>
+</layout>

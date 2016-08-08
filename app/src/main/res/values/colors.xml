@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="grey_light_tertiary">#eeeeee</color>
+    <color name="desert_storm">#f8f8f8</color>
+    <color name="white_alpha100">#ffffff</color>
+    <color name="pale_robin_egg_blue">#9ee2ce</color>
+    <color name="primary_color">#3dc49d</color>
+    <color name="mountain_meadow">#2fbc8b</color>
+    <color name="primary_color_darker">#2b896e</color>
+    <color name="grey_light_primary">#999999</color>
+    <color name="grey_light_secondary">#cccccc</color>
+    <color name="grey_dark_secondary">#666666</color>
+    <color name="black_alpha20">#33000000</color>
+    <color name="black_alpha30">#4c000000</color>
+    <color name="black_alpha47">#77000000</color>
+    <color name="black_alpha73">#bb000000</color>
+    <color name="status_bar_color">#33000000</color>
+
+    <color name="button_green_text">@android:color/white</color>
+    <color name="button_green_text_disabled">@android:color/white</color>
+    <color name="button_green_text_pressed">@color/mountain_meadow</color>
+</resources>

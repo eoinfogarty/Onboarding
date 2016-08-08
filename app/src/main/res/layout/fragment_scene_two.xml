@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Space
+            android:id="@+id/space"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+        <ImageView
+            android:id="@+id/twitter_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/space"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_twitter" />
+
+        <ImageView
+            android:id="@+id/ameba_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/space"
+            android:layout_marginEnd="42dp"
+            android:layout_marginRight="42dp"
+            android:layout_toLeftOf="@id/twitter_icon"
+            android:layout_toStartOf="@id/space"
+            android:src="@drawable/ic_abema" />
+
+        <ImageView
+            android:id="@+id/facebook_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/space"
+            android:layout_marginLeft="42dp"
+            android:layout_marginStart="42dp"
+            android:layout_toEndOf="@id/twitter_icon"
+            android:layout_toRightOf="@id/twitter_icon"
+            android:src="@drawable/ic_facebook" />
+
+    </RelativeLayout>
+</layout>

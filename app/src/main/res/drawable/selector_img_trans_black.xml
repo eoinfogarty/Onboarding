@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/shape_img_pressed_trans_black" android:state_pressed="true"/>
+    <item android:drawable="@color/black_alpha20"/>
+</selector>

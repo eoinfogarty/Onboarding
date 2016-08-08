@@ -1,0 +1,20 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="tutorial_shared_element_translate_y">56dp</dimen>
+    <dimen name="tutorial_padding_width">0dp</dimen>
+    <dimen name="tutorial_padding_height">0dp</dimen>
+    <dimen name="tutorial_device_img_left_right_margin">32dp</dimen>
+
+    <!-- Recommended -->
+    <dimen name="recommended_margin">16dp</dimen>
+    <dimen name="recommended_category_offset">16dp</dimen>
+    <dimen name="recommended_padding_width">0dp</dimen>
+    <dimen name="recommended_padding_height">0dp</dimen>
+    <dimen name="recommended_text_size">20sp</dimen>
+    <dimen name="recommended_indicator_text">14sp</dimen>
+    <dimen name="recommended_indicator_margin">24dp</dimen>
+    <dimen name="recommended_margin_bottom">4dp</dimen>
+</resources>

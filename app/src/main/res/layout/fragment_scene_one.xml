@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false">
+
+        <ImageView
+            android:id="@+id/deviceImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="30dp"
+            android:src="@drawable/img_tutorial_device" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/deviceImage"
+            android:layout_alignEnd="@id/deviceImage"
+            android:layout_alignLeft="@id/deviceImage"
+            android:layout_alignRight="@id/deviceImage"
+            android:layout_alignStart="@id/deviceImage"
+            android:layout_alignTop="@id/deviceImage"
+            android:layout_marginBottom="64dp"
+            android:layout_marginLeft="@dimen/tutorial_device_img_left_right_margin"
+            android:layout_marginRight="@dimen/tutorial_device_img_left_right_margin"
+            android:layout_marginTop="64dp"
+            android:clipToPadding="false"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/sharedImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_shared"
+                android:tag="shared_element" />
+
+            <TextView
+                android:id="@+id/deviceText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/tutorial_device_text"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </RelativeLayout>
+</layout>
