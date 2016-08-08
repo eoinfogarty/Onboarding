@@ -3,9 +3,9 @@ Onboarding
 =========
 A beautiful way to introduce users to you app
 
-<img src="graphics/example.gif" alt="example" style="width: 200px;"/>
+![Demo](graphics/example.gif)
 
-Using a regualar `ViewPager` with a custom transformer with callbacks we can achieve this effect
+Using a regular `ViewPager` with a custom transformer with callbacks we can achieve this effect
 
 ### Interface
 ```java
