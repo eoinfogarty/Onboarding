@@ -12,7 +12,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="30dp"
-            android:src="@drawable/img_tutorial_device" />
+            android:src="@drawable/img_device" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -45,7 +45,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="@string/tutorial_device_text"
+                android:text="@string/device_text"
                 android:textSize="14sp" />
         </LinearLayout>
     </RelativeLayout>

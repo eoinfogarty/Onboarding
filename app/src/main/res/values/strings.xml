@@ -2,13 +2,10 @@
     <string name="app_name">Onboarding</string>
 
     <string name="action_skip">Skip</string>
-    <string name="tutorial_btn_start">Start</string>
-    <string name="tutorial_write_label">Put words to your pictures and leave memories in your blog.</string>
-    <string name="tutorial_share_label">Share your important moments with friends and family.</string>
-    <string name="tutorial_follow_label">Follow interesting genres and creators from around the world. </string>
-    <string name="tutorial_device_text">Today I went to the newly opened Uehara Cafe in Yoyogi Uehara. Because today was the grand opening, there was a good sized crowd there. Recently lots of famous shops from Hawaii one after another are coming to Japan. I personally think these pancakes are so hot right now.</string>
+    <string name="btn_start">Start</string>
+    <string name="write_label">Put words to your pictures and leave memories in your blog.</string>
+    <string name="share_label">Share your important moments with friends and family.</string>
+    <string name="follow_label">Follow interesting genres and creators from around the world. </string>
+    <string name="device_text">Today I went to the newly opened Uehara Cafe in Yoyogi Uehara. Because today was the grand opening, there was a good sized crowd there. Recently lots of famous shops from Hawaii one after another are coming to Japan. I personally think these pancakes are so hot right now.</string>
 
-    <!-- UserRegistrationActivity -->
-    <string name="recommended_site_ab_title">Follow some genres of interest.</string>
-    <string name="recommended_follow_more_categories">Select %d more genres.</string>
 </resources>

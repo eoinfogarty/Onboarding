@@ -62,7 +62,7 @@
                 android:paddingLeft="24dp"
                 android:paddingRight="24dp"
                 android:paddingTop="8dp"
-                android:text="@string/tutorial_btn_start"
+                android:text="@string/btn_start"
                 android:textSize="16sp"
                 android:visibility="gone" />
         </RelativeLayout>

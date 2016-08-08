@@ -4,7 +4,7 @@ android {
     compileSdkVersion 24
     buildToolsVersion "24.0.0"
     defaultConfig {
-        applicationId "redstar.onboarding.onboarding"
+        applicationId 'redstar.onboarding'
         minSdkVersion 15
         targetSdkVersion 24
         versionCode 1
@@ -17,18 +17,18 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-
     dataBinding.enabled = true
+    productFlavors {
+    }
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:24.0.0'
-    compile "com.android.support:recyclerview-v7:24.0.0"
+    compile 'com.android.support:recyclerview-v7:24.0.0'
     compile 'fr.avianey.com.viewpagerindicator:library:2.4.1@aar'
-
     testCompile 'junit:junit:4.12'
 }
