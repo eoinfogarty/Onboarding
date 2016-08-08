@@ -2,6 +2,7 @@
 Onboarding
 ==========
 A beautiful way to introduce users to you app
+
 ![Demo](graphics/example.gif)
 
 Using a regular `ViewPager` with a custom transformer with callbacks we can achieve this effect
