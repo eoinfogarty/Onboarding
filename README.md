@@ -1,4 +1,3 @@
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ErrorView-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/1285)
 
 Onboarding
 =========
