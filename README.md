@@ -1,10 +1,9 @@
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Onboarding-green.svg?style=true)](https://android-arsenal.com/details/3/4094)
 Onboarding
 ==========
 A beautiful way to introduce users to you app
 
 ![Demo](graphics/example.gif)
-
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Onboarding-green.svg?style=true)](https://android-arsenal.com/details/3/4094)
 
 Using a regular `ViewPager` with a custom transformer with callbacks we can achieve this effect
 
