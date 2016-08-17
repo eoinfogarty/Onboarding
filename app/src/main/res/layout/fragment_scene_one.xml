@@ -11,7 +11,8 @@
             android:id="@+id/deviceImage"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="30dp"
+            android:layout_margin="@dimen/deviceImagePadding"
+            android:scaleType="fitXY"
             android:src="@drawable/img_device" />
 
         <LinearLayout

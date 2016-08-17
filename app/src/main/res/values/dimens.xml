@@ -13,4 +13,7 @@
     <dimen name="recommended_indicator_text">14sp</dimen>
     <dimen name="recommended_indicator_margin">24dp</dimen>
     <dimen name="recommended_margin_bottom">4dp</dimen>
+    <dimen name="deviceImagePadding">30dp</dimen>
+    <dimen name="space_size">40dp</dimen>
+    <dimen name="space_margin">0dp</dimen>
 </resources>
