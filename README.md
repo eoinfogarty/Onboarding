@@ -1,3 +1,5 @@
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Onboarding-green.svg?style=true)](https://android-arsenal.com/details/3/4094)
+
 Onboarding
 ==========
 A beautiful way to introduce users to you app
@@ -5,6 +7,8 @@ A beautiful way to introduce users to you app
 ![Demo](graphics/example.gif)
 
 Using a regular `ViewPager` with a custom transformer with callbacks we can achieve this effect
+
+[Sample Apk](https://dl.dropboxusercontent.com/u/31880748/onboarding-sample.apk)
 
 ### Interface
 ```java
